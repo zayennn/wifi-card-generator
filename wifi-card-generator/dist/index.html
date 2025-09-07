@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>WiFi Card Generator</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<form>
+  <h2>WiFi Login</h2>
+  <div class="internal">
+    <img width="164" src="https://api.qrserver.com/v1/create-qr-code/?size=164x164&data=todo">
+
+    <div class="inputs">
+      <label>
+        Network name
+        <input class="ssid" placeholder="WiFi network name">
+      </label>
+      <label>
+        Password
+        <input class="password" placeholder="Password">
+      </label>
+    </div>
+  </div>
+
+  <p>
+    📸 Point your phone's camera at the QR code to connect to WiFi
+  </p>
+
+  <button type="button">Print Wifi Card</button>
+</form>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
